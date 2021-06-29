@@ -1,5 +1,6 @@
 # My Linux Dotfiles
 Personal and open-source backup of my preferred Linux configurations.
+
 Backuped configs:
 	- Fusuma
 	- KDE Plasma
