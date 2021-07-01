@@ -1,0 +1,57 @@
+[ActionsWidget]
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbYAAAACAQAAAQAAAAAAAAAAAAAAAH3/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAAAvAAAAAEAAAAAAAAD6AAAAAB9
+
+[ConfigDialog]
+HDMI-1 Height 1440=725
+HDMI-1 Width 2560=1360
+eDP-1 Height 1080=612
+eDP-1 Width 1920=726
+
+[FileDialogSize]
+HDMI-1 eDP-1 Height 1080=782
+HDMI-1 eDP-1 Width 1920=1298
+
+[General]
+Number of Actions=0
+
+[KFileDialog Settings]
+Recent Files[$e]=mcOS-BS-Large.layout.latte
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/,file:$HOME/Documents/,file:$HOME/Pictures/Icons/,file:$HOME/Pictures/
+detailViewIconSize=0
+iconViewIconSize=43
+
+[KPropertiesDialog]
+HDMI-1 Height 1440=565
+HDMI-1 Width 2560=501
+HDMI-1 eDP-1 Height 1440=565
+HDMI-1 eDP-1 Width 2560=470
+eDP-1 Height 1080=565
+eDP-1 Width 1920=470
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_applications:org.kde.kate.desktop,1 services_applications:org.kde.konsole.desktop,1 services_applications:discord.desktop
+
+[PlasmaThemeExtended]
+outlineWidth=1
+
+[ScreenConnectors]
+10=HDMI-1
+11=eDP-1
+12=default
+13=DP-1
+
+[UniversalSettings]
+badges3DStyle=false
+canDisableBorders=false
+currentLayout=Extended
+downloadWindowSize=800,550
+lastNonAssignedLayout=Extended
+launchers=
+layoutsColumnWidths=131,97,77,0
+layoutsWindowSize=700,694
+memoryUsage=0
+metaPressAndHoldEnabled=true
+mouseSensitivity=1
+screenTrackerInterval=2500
+showInfoWindow=true
+version=2

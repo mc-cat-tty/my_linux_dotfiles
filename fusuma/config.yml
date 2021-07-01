@@ -1,0 +1,70 @@
+swipe:
+  3:
+    left:
+      command: 'xdotool key alt+Right' # History forward
+    right:
+      command: 'xdotool key alt+Left' # History back
+    up:
+      command: 'xdotool key --clearmodifiers ctrl+t' # Open new tab
+      keypress:
+        LEFTSHIFT:
+          command: 'xdotool key --clearmodifiers ctrl+shift+t' # Open last closed tab
+    down:
+      command: 'xdotool key ctrl+w' # Close tab
+  4:
+    left:
+      workspace: 'next' # Switch to next workspace
+      command: 'xdotool key --clearmodifiers ctrl+super+Right' # Move window to left side
+    right:
+      workspace: 'prev' # Switch to previous workspace
+      command: 'xdotool key --clearmodifiers ctrl+super+Left'  # Move window to right side
+    up:
+      command: 'xdotool key --clearmodifiers super+Escape' # Virtual desktop overview
+    down:
+      command: 'xdotool key --clearmodifiers Shift_L+Alt_L+Tab' #aaaaa
+
+pinch:
+  2:
+    in:
+      command: 'xdotool keydown ctrl click 4 keyup ctrl' # Zoom in
+      threshold: 0.8
+      interval: 0.5
+    out:
+      command: 'xdotool keydown ctrl click 5 keyup ctrl' # Zoom out
+      threshold: 0.8
+      interval: 0.5
+  4:
+    in:
+      command: 'xdotool key --clearmodifiers super+d' # Window overview
+      threshold: 0.7
+      interval: 2
+    out:
+      command: 'xdotool key --clearmodifiers ctrl+F10' # Workspace overview
+      #command: 'xtool key super'
+      threshold: 0.8
+      interval: 2
+
+rotate:
+  3:
+    clockwise:
+      command: 'xdotool key --clearmodifiers XF86MonBrightnessUp' # Brightness up
+      keypress:
+        LEFTSHIFT:
+          command: 'xdotool key --clearmodifiers XF86AudioRaiseVolume'
+    counterclockwise:
+      command: 'xdotool key --clearmodifiers XF86MonBrightnessDown' # Brightness down
+      keypress:
+        LEFTSHIFT:
+          command: 'xdotool key --clearmodifiers XF86AudioLowerVolume'
+
+tap:
+  4:
+    command: 'xdotool mousedown 1'
+
+plugin: 
+  inputs:
+    libinput_command_input: # options for lib/plugin/inputs/libinput_command_input
+      enable-tap: true # click to tap
+      enable-dwt: true # disable tap while typing
+      show-keycodes: true # https://github.com/iberianpig/fusuma-plugin-keypress#add-show-keycode-option
+      verbose: true

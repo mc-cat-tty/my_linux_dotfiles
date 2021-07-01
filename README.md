@@ -1,9 +1,13 @@
 # My Linux Dotfiles
-Personal and open-source backup of my preferred Linux configurations.
+Personal, but open-source, collection of my preferred Linux configurations, profiles and themes.
 
-Backuped configs:
+Backuped configs and profiles:
 - Fusuma
 - KDE Plasma
+- KWin
+- GTK
+- Konsole
+- DE Themes
 - Z shell
 - Latte Dock
 

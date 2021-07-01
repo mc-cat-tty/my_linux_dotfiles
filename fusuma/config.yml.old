@@ -1,0 +1,28 @@
+swipe:
+  3:
+    left:
+      command: "xdotool keyup alt" # History forward 
+    right:
+      command: "xdotool keydown alt key Tab" # History back
+    up:
+      command: "xdotool key Up" # Activity
+    down:
+      command: "xdotool key Down" # Activity
+  4:
+    left:
+      command: "xdotool key ctrl+super+Right" # Switch to next workspace
+    right:
+      command: "xdotool key ctrl+super+Left" # Switch to previous workspace
+    up:
+      command: "xdotool key super+Escape" # Switch to next workspace
+    down:
+      command: "xdotool key super+Escape" # Switch to previous workspace
+pinch:
+  2:
+    in:
+      command: "xdotool keydown ctrl click 4 keyup ctrl" # Zoom in
+    out:
+      command: "xdotool keydown ctrl click 5 keyup ctrl" # Zoom out
+  4:
+    in:
+      command: "xdotool key super"

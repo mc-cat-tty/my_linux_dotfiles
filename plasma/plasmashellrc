@@ -1,0 +1,151 @@
+[DownloadDialog Settings]
+HDMI-1 Height 1440=412
+HDMI-1 Width 2560=700
+HDMI-1 eDP-1 Height 1440=623
+HDMI-1 eDP-1 Width 2560=1172
+
+[InteractiveConsole]
+Geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03'\x00\x00\x06\xa4\x00\x00\x06}\x00\x00\x08\xd2\x00\x00\x03'\x00\x00\x06\xc7\x00\x00\x06}\x00\x00\x08\xd2\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x03'\x00\x00\x06\xc7\x00\x00\x06}\x00\x00\x08\xd2
+SplitterState=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x08\\\x00\x00\x01$\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/aerial-view-of-the-sea-wallpaper.jpg
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/Pictures/,file:$HOME/Documents/,baloosearch:/images/
+detailViewIconSize=0
+iconViewIconSize=43
+
+[KPropertiesDialog]
+eDP-1 Height 1080=490
+eDP-1 Width 1920=518
+
+[KTextEditor Document]
+Allow End of Line Detection=true
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=10000
+Newline at End of File=true
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=0
+ReplaceTabsDyn=true
+Show Spaces=0
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Word Wrap=false
+Word Wrap Column=80
+
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO 8859-15
+
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Schema=Normal
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[KTextEditor View]
+Allow Mark Menu=true
+Auto Brackets=false
+Auto Center Lines=0
+Auto Completion=true
+Backspace Remove Composed Characters=false
+Bookmark Menu Sorting=0
+Bracket Match Preview=false
+Chars To Enclose Selection=
+Default Mark Type=1
+Dynamic Word Wrap=true
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap At Static Marker=false
+Dynamic Word Wrap Indicators=1
+Dynamic Wrap not at word boundaries=false
+Fold First Line=false
+Folding Bar=true
+Folding Preview=true
+Icon Bar=false
+Input Mode=0
+Keyword Completion=true
+Line Modification=false
+Line Numbers=false
+Maximum Search History Size=100
+Mouse Paste At Cursor Position=false
+Persistent Selection=false
+Scroll Bar Marks=false
+Scroll Bar Mini Map All=true
+Scroll Bar Mini Map Width=60
+Scroll Bar MiniMap=true
+Scroll Bar Preview=true
+Scroll Past End=false
+Search/Replace Flags=140
+Show Line Count=false
+Show Scrollbars=0
+Show Word Count=false
+Smart Copy Cut=false
+Text Drag And Drop=true
+User Sets Of Chars To Enclose Selection=
+Vi Input Mode Steal Keys=false
+Vi Relative Line Numbers=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_applications:firefox.desktop
+
+[PlasmaTransientsConfig]
+PreloadWeight=0
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=36
+
+[PlasmaViews][Panel 2][Horizontal2560]
+thickness=36
+
+[PlasmaViews][Panel 28][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 28][Horizontal2560]
+thickness=36
+
+[PlasmaViews][Panel 30][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 30][Horizontal2560]
+thickness=36
+
+[PlasmaViews][Panel 32][Defaults]
+thickness=48
+
+[PlasmaViews][Panel 32][Vertical1440]
+thickness=48
+
+[ScreenConnectors]
+0=HDMI-1
+1=:0.0
+2=eDP-1
+3=DP-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js
